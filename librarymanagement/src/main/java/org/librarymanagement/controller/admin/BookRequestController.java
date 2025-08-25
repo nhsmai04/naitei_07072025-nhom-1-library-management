@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping(ApiEndpoints.ADMIN_BORROW_REQUEST)
 public class BookRequestController {
-    @GetMapping
+   /* @GetMapping
     public String showRequestBook() {
         return "admin/borrow-requests/index";
     }
@@ -16,5 +16,5 @@ public class BookRequestController {
     @GetMapping("/{id}")
     public String showRequestBookedit() {
         return "admin/borrow-requests/detail";
-    }
+    }*/
 }
